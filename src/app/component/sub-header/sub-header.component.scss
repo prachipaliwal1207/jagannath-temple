@@ -1,0 +1,30 @@
+.container-fluid {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    padding: 10px;
+    background-color: #073366;
+    color: white;
+    position: fixed;
+    z-index: 999;
+
+    .fa-arrow-left{
+      padding-left: 10px;
+    }
+
+    h4{
+      font-weight: bold;
+      padding-left: 20px;
+    }
+
+    nav {
+        display: flex;
+        gap: 20px;
+    }
+
+    i {
+        color: white;
+        font-size: 23px;
+        cursor: pointer;
+    }
+}

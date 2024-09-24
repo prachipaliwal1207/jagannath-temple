@@ -1,0 +1,36 @@
+.container-fluid {
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 999;
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px;
+
+        a {
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            align-items: center;
+            text-align: center;
+            color: rgb(72, 72, 72);
+
+            &:hover {
+                color: rgb(110, 108, 108);
+            }
+
+            i {
+                font-size: 20px;
+            }
+
+            span {
+                font-size: 12px;
+            }
+        }
+    }
+
+}
